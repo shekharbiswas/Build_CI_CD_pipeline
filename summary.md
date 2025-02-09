@@ -1,2 +1,6 @@
-shekhar [ ~ ]$ cat /home/shekhar/.ssh/id_rsa.pub
+
+- shekhar [ ~ ]$ cat /home/shekhar/.ssh/id_rsa.pub
+  
+```bash
 ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCfc3ypROr7vbIphlTQLukPSUPVTDxMcIVgL9vaRNj/5WpUvnv+ZkPcCDbbrmUNImMnxCe9PEpl3dq7tZwpab5i4aK4jcD2iSMGIwkf4Qvjyg2qj7TR4pUZHb6VgzOUQeOE4mzbXD8XRUVhFJFbcLs+e7n2a5uvzfj2IKualhgaGsosIcHSS9yxYRZ6kSn+FeRaI1oczoIaVlcoZ6fitJ+uWNzYkiAUe48smqgsBvPL5C33FtQ5Csqcxhuo4+z/RdQ+w+laT+k1d7X2vO8mAEpWv12QFJVdxj1I4JyW4Qp/M+ccpl0EybhcrF//DZRbG/DtDHGwhQ4IlEXSbrXE7zBDlqcFWRDTZOz/OGTd7/B2HK33WH8x2rlS2SxfgYBCky3s2DIZhcsFsKIs/v5c5qbc+d0itJqWM0DXrJB3dr3jNrKmb4e6v+XojeletuRmkFKxbQor8ePgynelqRbWPLrKnApZ8FDFfwcPK1H4hgUfJuRz5V40hsT/WPrZROGc2lU= shekhar@SandboxHost-638746886889469114
+```

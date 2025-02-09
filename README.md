@@ -12,3 +12,6 @@ The project plan is structured into milestones, covering Flask API development, 
 
 
 This ensures efficient progress, clear accountability, and a smooth deployment to Azure.
+
+
+(edited in cloudshell)

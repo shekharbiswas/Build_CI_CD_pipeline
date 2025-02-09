@@ -8,4 +8,7 @@ Build a CI/CD pipeline to automate the deployment of a machine learning microser
 The project plan is structured into milestones, covering Flask API development, ML model integration, CI/CD implementation, testing, and deployment. 
 
 - The [trello board](https://trello.com/b/yB1P1XJD/buildcicdpipeline) track tasks in 3 categories: To Do, In Progress and Done.
-- The [spreadsheet](https://docs.google.com/spreadsheets/d/1U11YbFkv5H8b5wT21PZTcDiYmlsPfOksCUsgEl4DDH0/edit?usp=sharing) timeline outlines key deadlines and responsibilities. This ensures efficient progress, clear accountability, and a smooth deployment to Azure.
+- The [spreadsheet](https://docs.google.com/spreadsheets/d/1U11YbFkv5H8b5wT21PZTcDiYmlsPfOksCUsgEl4DDH0/edit?usp=sharing) timeline outlines key deadlines and responsibilities.
+
+
+This ensures efficient progress, clear accountability, and a smooth deployment to Azure.

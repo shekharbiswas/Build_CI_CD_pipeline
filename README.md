@@ -50,4 +50,4 @@ A push event to GitHub triggers a GitHub Actions container, which executes a ser
 ![image](https://github.com/user-attachments/assets/979b6d72-7b7e-4c69-a006-e70039a4e819)
 
 1. Create **pythonapp.yml**
-2. Enable GitHub Actions in the GitHub UI. 
+2. Enable GitHub Actions in the GitHub UI.  [ref](https://www.youtube.com/watch?v=U29oRwnkASw&t=16s)

@@ -38,3 +38,17 @@ This ensures efficient progress, clear accountability, and a smooth deployment t
 
 <img width="949" alt="image" src="https://github.com/user-attachments/assets/5f5c79cb-064f-49ac-9de7-46618773e86c" />
 
+
+###  Configure GitHub Actions
+
+Configure GitHub Actions to test your project upon change events in GitHub. Ensure continuous integration (CI) is performed remotely by setting up automated tests whenever code is checked into a Git-based repository.
+
+Set up both a SaaS build service and the necessary configuration files to define the build process. Use GitHub Actions as the CI service to automate testing and validation.
+
+Follow DevOps best practices by integrating GitHub Actions into your project. This step finalizes the CI process, preparing the project for the next phase: Continuous Delivery.
+
+Refer to the diagram below to understand how GitHub Actions automates testing. 
+A push event to GitHub triggers a GitHub Actions container, which executes a series of predefined commands.
+
+![image](https://github.com/user-attachments/assets/979b6d72-7b7e-4c69-a006-e70039a4e819)
+

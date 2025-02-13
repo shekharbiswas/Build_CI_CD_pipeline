@@ -25,5 +25,10 @@ This ensures efficient progress, clear accountability, and a smooth deployment t
 3. Project cloned into Azure Cloud shell
 <img width="482" alt="image" src="https://github.com/user-attachments/assets/0ca6b2be-86a7-45fd-9ca4-97f9a3904f06" />
 
-4. Create makefile, requirements.txt in the Github repo
+4. Create makefile, requirements.txt in the Github repo.
+
 5. Create Python virtual environment 
+<img width="493" alt="image" src="https://github.com/user-attachments/assets/e9805a1b-777c-4611-81b3-8463866d988a" />
+
+
+

@@ -21,5 +21,7 @@ This ensures efficient progress, clear accountability, and a smooth deployment t
   
   <img width="458" alt="image" src="https://github.com/user-attachments/assets/93c87388-a6a4-4e3e-a3ac-f4f7dd7e74d6" />
 
+3. Project cloned into Azure Cloud shel
+<img width="482" alt="image" src="https://github.com/user-attachments/assets/0ca6b2be-86a7-45fd-9ca4-97f9a3904f06" />
 
   

@@ -16,7 +16,8 @@ This ensures efficient progress, clear accountability, and a smooth deployment t
 
 
 ### Azure Cloud Shell Setup
-1. Launch Azure Cloud shell env and create ssh-keys. Upload these keys to Github account.
+
+1. Launch Azure Cloud shell env and create ssh-keys. Upload these keys to Github account. [ref](https://www.youtube.com/watch?v=Z8uRw6N5TGY&t=84s)
 2. Clone the repo to Azure (use SSH)
   
   <img width="458" alt="image" src="https://github.com/user-attachments/assets/93c87388-a6a4-4e3e-a3ac-f4f7dd7e74d6" />
@@ -24,4 +25,5 @@ This ensures efficient progress, clear accountability, and a smooth deployment t
 3. Project cloned into Azure Cloud shell
 <img width="482" alt="image" src="https://github.com/user-attachments/assets/0ca6b2be-86a7-45fd-9ca4-97f9a3904f06" />
 
-  
+4. Create makefile, requirements.txt in the Github repo
+5. Create Python virtual environment 

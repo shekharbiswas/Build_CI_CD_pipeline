@@ -56,3 +56,5 @@ A push event to GitHub triggers a GitHub Actions container, which executes a ser
 
 4. The GitHub Actions build passed.
 
+<img width="919" alt="image" src="https://github.com/user-attachments/assets/de074d45-69ad-4800-8a0b-f46462d97cf2" />
+

@@ -58,3 +58,6 @@ A push event to GitHub triggers a GitHub Actions container, which executes a ser
 
 <img width="919" alt="image" src="https://github.com/user-attachments/assets/de074d45-69ad-4800-8a0b-f46462d97cf2" />
 
+### CD on Azure
+
+This is the final step that invloves setting up Azure Pipelines to deploy the Flask application on Azure App Services.

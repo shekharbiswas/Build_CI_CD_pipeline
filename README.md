@@ -30,5 +30,11 @@ This ensures efficient progress, clear accountability, and a smooth deployment t
 5. Create Python virtual environment 
 <img width="493" alt="image" src="https://github.com/user-attachments/assets/e9805a1b-777c-4611-81b3-8463866d988a" />
 
+6. Run make all
 
+<img width="695" alt="image" src="https://github.com/user-attachments/assets/1787aec4-40b1-49a5-aafe-e97ce672b241" />
+
+7. All the test cases should pass
+
+<img width="949" alt="image" src="https://github.com/user-attachments/assets/5f5c79cb-064f-49ac-9de7-46618773e86c" />
 

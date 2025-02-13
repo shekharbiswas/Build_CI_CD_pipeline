@@ -14,4 +14,11 @@ The project plan is structured into milestones, covering Flask API development, 
 This ensures efficient progress, clear accountability, and a smooth deployment to Azure.
 
 
-(edited in cloudshell)
+
+### Azure Cloud Shell Setup
+
+- Clone the repo to Azure (use SSH)
+  <img width="458" alt="image" src="https://github.com/user-attachments/assets/93c87388-a6a4-4e3e-a3ac-f4f7dd7e74d6" />
+
+
+  

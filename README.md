@@ -109,7 +109,3 @@ Please go to Azure portal (GUI) and search for **house-price-pred-app**:
 
 
 
-
-```bash
-az webapp up --sku F1 -n <app-name>
-```

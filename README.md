@@ -86,6 +86,12 @@ Create a resource group (please do not forget to add tags).
 ```bash
 az group create -l westeurope -n "cicd-rg" --tags "Environment =dev"
 ```
+
+<img width="800" alt="image" src="https://github.com/user-attachments/assets/d92a82ee-6791-4a56-b9ac-e9c287769fdf" />
+
+
+3. 
+
 ```bash
 az webapp up --sku F1 -n <app-name>
 ```

@@ -36,6 +36,11 @@ cat /home/shekhar/.ssh/id_rsa.pub
 5. Create Python virtual environment 
 <img width="493" alt="image" src="https://github.com/user-attachments/assets/e9805a1b-777c-4611-81b3-8463866d988a" />
 
+```bash
+python3 -m venv ~/.Build_CI_CD_pipeline
+source ~/.Build_CI_CD_pipeline/bin/activate
+```
+
 6. Run make all
 
 <img width="695" alt="image" src="https://github.com/user-attachments/assets/1787aec4-40b1-49a5-aafe-e97ce672b241" />

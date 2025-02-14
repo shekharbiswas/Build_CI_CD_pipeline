@@ -93,10 +93,16 @@ az group create -l westeurope -n "cicd-rg"
 3. Before proceeding, ensure that you are in the **Azure Cloud Shell**, located in the correct **project directory** (this case flask-sklearn), and also make sure, you've **activated Python** using the `source` command.
 
 Now, create the web app. To do so, run the following command: (it takes sometime)
+Azure 1st checks if that webapp exists, if not, it creates it.
+(the name can be anything, here it is **house-price-pred-app**)
 
 ```bash
 az webapp up --sku F1 -l westeurope -g "cicd-rg" -n "house-price-pred-app"
 ```
+
+
+
+
 
 ```bash
 az webapp up --sku F1 -n <app-name>

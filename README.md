@@ -100,6 +100,8 @@ Azure 1st checks if that webapp exists, if not, it creates it.
 az webapp up --sku F1 -l westeurope -g "cicd-rg" -n "house-price-pred-app"
 ```
 
+<img width="548" alt="image" src="https://github.com/user-attachments/assets/898aba1e-921f-4795-98b3-f4bd9063eae2" />
+
 
 
 

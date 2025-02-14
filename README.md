@@ -74,12 +74,18 @@ A push event to GitHub triggers a GitHub Actions container, which executes a ser
 This is the final step that invloves setting up Azure Pipelines to deploy the Flask application on Azure App Services.
 (This case, Azure Pipelines are used to deploy CD, which can be done with GitHub Actions as well.)
 
+Enable source control integration, select the Azure Pipelines to build provider, and finally configure the App Services permissions.
+
 ![image](https://github.com/user-attachments/assets/e04b185e-10bd-4216-83aa-e8c5f71f88a6)
 
 1. Get the starter [code](https://github.com/udacity/nd082-Azure-Cloud-DevOps-Starter-Code/tree/master/C2-AgileDevelopmentwithAzure/project/starter_files) and add to the repo. Git clone and put the **flask-sklearn** folder inside the main branch.
+2. When launching Azure Pipelines, creating a resource group is an important step. 
+It helps organize and manage all the resources required for the pipeline.
+Create a resource group (please do not forget to add tags).
 
-2. Enable source control integration, select the Azure Pipelines to build provider, and finally configure the App Services permissions.
-
+```bash
+az group create -l westeurope -n "cicd-rg" --tags "Environment =dev"
+```
 ```bash
 az webapp up --sku F1 -n <app-name>
 ```

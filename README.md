@@ -67,7 +67,7 @@ A push event to GitHub triggers a GitHub Actions container, which executes a ser
 ### CD on Azure
 
 This is the final step that invloves setting up Azure Pipelines to deploy the Flask application on Azure App Services.
-(This case, Azure Pipelines are used to deploy CD, can be done with GitHub Actions as well.)
+(This case, Azure Pipelines are used to deploy CD, which can be done with GitHub Actions as well.)
 
 ![image](https://github.com/user-attachments/assets/e04b185e-10bd-4216-83aa-e8c5f71f88a6)
 

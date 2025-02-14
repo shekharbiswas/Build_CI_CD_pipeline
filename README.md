@@ -18,6 +18,12 @@ This ensures efficient progress, clear accountability, and a smooth deployment t
 ### Azure Cloud Shell Setup
 
 1. Launch Azure Cloud shell env and create ssh-keys. Upload these keys to Github account. [ref](https://www.youtube.com/watch?v=Z8uRw6N5TGY&t=84s)
+
+```bash
+ssh-keygen -t rsa
+cat /home/shekhar/.ssh/id_rsa.pub
+```
+
 2. Clone the repo to Azure (use SSH)
   
   <img width="458" alt="image" src="https://github.com/user-attachments/assets/93c87388-a6a4-4e3e-a3ac-f4f7dd7e74d6" />
@@ -29,6 +35,11 @@ This ensures efficient progress, clear accountability, and a smooth deployment t
 
 5. Create Python virtual environment 
 <img width="493" alt="image" src="https://github.com/user-attachments/assets/e9805a1b-777c-4611-81b3-8463866d988a" />
+
+```bash
+python3 -m venv ~/.Build_CI_CD_pipeline
+source ~/.Build_CI_CD_pipeline/bin/activate
+```
 
 6. Run make all
 
@@ -61,7 +72,44 @@ A push event to GitHub triggers a GitHub Actions container, which executes a ser
 ### CD on Azure
 
 This is the final step that invloves setting up Azure Pipelines to deploy the Flask application on Azure App Services.
+(This case, Azure Pipelines are used to deploy CD, which can be done with GitHub Actions as well.)
+
+Enable source control integration, select the Azure Pipelines to build provider, and finally configure the App Services permissions.
 
 ![image](https://github.com/user-attachments/assets/e04b185e-10bd-4216-83aa-e8c5f71f88a6)
 
-1. Get the starter [code](https://github.com/udacity/nd082-Azure-Cloud-DevOps-Starter-Code/tree/master/C2-AgileDevelopmentwithAzure/project/starter_files) and add to the repo. 
+1. Get the starter [code](https://github.com/udacity/nd082-Azure-Cloud-DevOps-Starter-Code/tree/master/C2-AgileDevelopmentwithAzure/project/starter_files) and add to the repo. Git clone and put the **flask-sklearn** folder inside the main branch.
+2. When launching Azure Pipelines, creating a resource group is an important step. 
+It helps organize and manage all the resources required for the pipeline.
+Create a resource group (in case, you still have tag-policy, please do not forget to add tags).
+
+```bash
+az group create -l westeurope -n "cicd-rg"
+```
+
+<img width="800" alt="image" src="https://github.com/user-attachments/assets/d92a82ee-6791-4a56-b9ac-e9c287769fdf" />
+
+
+3. Before proceeding, ensure that you are in the **Azure Cloud Shell**, located in the correct **project directory** (this case flask-sklearn), and also make sure, you've **activated Python** using the `source` command.
+
+Now, create the web app. To do so, run the following command: (it takes sometime)
+Azure 1st checks if that webapp exists, if not, it creates it.
+(the name can be anything, here it is **house-price-pred-app**)
+
+```bash
+az webapp up --sku F1 -l westeurope -g "cicd-rg" -n "house-price-pred-app"
+```
+
+<img width="548" alt="image" src="https://github.com/user-attachments/assets/898aba1e-921f-4795-98b3-f4bd9063eae2" />
+
+
+Please go to Azure portal (GUI) and search for **house-price-pred-app**:
+
+<img width="953" alt="image" src="https://github.com/user-attachments/assets/b57b47cb-d1b7-479c-9202-024800c502f2" />
+
+
+
+
+```bash
+az webapp up --sku F1 -n <app-name>
+```

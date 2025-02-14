@@ -81,10 +81,10 @@ Enable source control integration, select the Azure Pipelines to build provider,
 1. Get the starter [code](https://github.com/udacity/nd082-Azure-Cloud-DevOps-Starter-Code/tree/master/C2-AgileDevelopmentwithAzure/project/starter_files) and add to the repo. Git clone and put the **flask-sklearn** folder inside the main branch.
 2. When launching Azure Pipelines, creating a resource group is an important step. 
 It helps organize and manage all the resources required for the pipeline.
-Create a resource group (please do not forget to add tags).
+Create a resource group (in case, you still have tag-policy, please do not forget to add tags).
 
 ```bash
-az group create -l westeurope -n "cicd-rg" --tags "Environment =dev"
+az group create -l westeurope -n "cicd-rg"
 ```
 
 <img width="800" alt="image" src="https://github.com/user-attachments/assets/d92a82ee-6791-4a56-b9ac-e9c287769fdf" />

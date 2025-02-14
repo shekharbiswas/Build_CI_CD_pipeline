@@ -78,6 +78,8 @@ This is the final step that invloves setting up Azure Pipelines to deploy the Fl
 
 1. Get the starter [code](https://github.com/udacity/nd082-Azure-Cloud-DevOps-Starter-Code/tree/master/C2-AgileDevelopmentwithAzure/project/starter_files) and add to the repo. Git clone and put the **flask-sklearn** folder inside the main branch.
 
+2. Enable source control integration, select the Azure Pipelines to build provider, and finally configure the App Services permissions.
+
 ```bash
 az webapp up --sku F1 -n <app-name>
 ```

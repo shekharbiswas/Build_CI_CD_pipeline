@@ -18,6 +18,12 @@ This ensures efficient progress, clear accountability, and a smooth deployment t
 ### Azure Cloud Shell Setup
 
 1. Launch Azure Cloud shell env and create ssh-keys. Upload these keys to Github account. [ref](https://www.youtube.com/watch?v=Z8uRw6N5TGY&t=84s)
+
+```bash
+ssh-keygen -t rsa
+cat /home/shekhar/.ssh/id_rsa.pub
+```
+
 2. Clone the repo to Azure (use SSH)
   
   <img width="458" alt="image" src="https://github.com/user-attachments/assets/93c87388-a6a4-4e3e-a3ac-f4f7dd7e74d6" />

@@ -70,4 +70,4 @@ This is the final step that invloves setting up Azure Pipelines to deploy the Fl
 
 ![image](https://github.com/user-attachments/assets/e04b185e-10bd-4216-83aa-e8c5f71f88a6)
 
-1. Get the starter [code](https://github.com/udacity/nd082-Azure-Cloud-DevOps-Starter-Code/tree/master/C2-AgileDevelopmentwithAzure/project/starter_files) and add to the repo. 
+1. Get the starter [code](https://github.com/udacity/nd082-Azure-Cloud-DevOps-Starter-Code/tree/master/C2-AgileDevelopmentwithAzure/project/starter_files) and add to the repo. Git clone and put the flask-sklearn folder inside the main branch.

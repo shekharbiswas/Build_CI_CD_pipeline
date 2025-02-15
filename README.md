@@ -115,9 +115,16 @@ Check if the UI is running:
 <img width="352" alt="image" src="https://github.com/user-attachments/assets/9a9f9f90-04b2-456f-8a7f-8f2c294929e1" />
 
 
-4. Prediction is 2.43 (not 20.xxx)
+4. **Prediction is 2.43** (not 20.xxx)
 
 <img width="552" alt="image" src="https://github.com/user-attachments/assets/930bf380-66df-4241-ae4e-e8f24d8ed0fe" />
+
+
+5. Check log file
+   
+```bash
+https://house-price-pred.scm.azurewebsites.net/api/logs/docker
+```
 
 
 

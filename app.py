@@ -46,7 +46,7 @@ def predict():
     scaled_payload = scale(inference_payload)
     prediction = list(clf.predict(scaled_payload))
 
-    LOG.info("Prdiction is: ", prediction)
+    LOG.info("Prediction is: %s", prediction)
     
     return jsonify({'prediction': prediction})
 

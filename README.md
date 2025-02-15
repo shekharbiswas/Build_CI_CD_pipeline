@@ -84,7 +84,7 @@ It helps organize and manage all the resources required for the pipeline.
 Create a resource group (in case, you still have tag-policy, please do not forget to add tags).
 
 ```bash
-az group create -l westeurope -n "cicd-rg"
+az group create -l northeurope -n "cicd-rg"
 ```
 
 <img width="800" alt="image" src="https://github.com/user-attachments/assets/d92a82ee-6791-4a56-b9ac-e9c287769fdf" />
@@ -99,15 +99,17 @@ Azure 1st checks if that webapp exists, if not, it creates it.
 [Location codes](https://gist.github.com/ausfestivus/04e55c7d80229069bf3bc75870630ec8)
 
 ```bash
-az webapp up --sku F1 -l westeurope -g "cicd-rg" -n "house-price-pred"
+az webapp up --sku F1 -l northeurope -g "cicd-rg" -n "house-price-pred"
 ```
 
-<img width="548" alt="image" src="https://github.com/user-attachments/assets/898aba1e-921f-4795-98b3-f4bd9063eae2" />
+<img width="946" alt="image" src="https://github.com/user-attachments/assets/15de452a-aadf-4f7e-bbc9-3d81554a6e21" />
+
 
 
 Please go to Azure portal (GUI) and search for **house-price-pred**:
 
-<img width="953" alt="image" src="https://github.com/user-attachments/assets/b57b47cb-d1b7-479c-9202-024800c502f2" />
+<img width="943" alt="image" src="https://github.com/user-attachments/assets/42d2ff8c-8857-4815-a981-de570be015f1" />
+
 
 
 

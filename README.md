@@ -110,6 +110,9 @@ Please go to Azure portal (GUI) and search for **house-price-pred**:
 
 <img width="943" alt="image" src="https://github.com/user-attachments/assets/42d2ff8c-8857-4815-a981-de570be015f1" />
 
+4. Prediction is 2.43 (not 20.xxx)
+
+<img width="552" alt="image" src="https://github.com/user-attachments/assets/930bf380-66df-4241-ae4e-e8f24d8ed0fe" />
 
 
 

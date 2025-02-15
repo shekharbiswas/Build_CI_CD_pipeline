@@ -99,13 +99,13 @@ Azure 1st checks if that webapp exists, if not, it creates it.
 [Location codes](https://gist.github.com/ausfestivus/04e55c7d80229069bf3bc75870630ec8)
 
 ```bash
-az webapp up --sku F1 -l westeurope -g "cicd-rg" -n "house-price-pred-app"
+az webapp up --sku F1 -l westeurope -g "cicd-rg" -n "house-price-pred"
 ```
 
 <img width="548" alt="image" src="https://github.com/user-attachments/assets/898aba1e-921f-4795-98b3-f4bd9063eae2" />
 
 
-Please go to Azure portal (GUI) and search for **house-price-pred-app**:
+Please go to Azure portal (GUI) and search for **house-price-pred**:
 
 <img width="953" alt="image" src="https://github.com/user-attachments/assets/b57b47cb-d1b7-479c-9202-024800c502f2" />
 

@@ -126,5 +126,7 @@ Check if the UI is running:
 https://house-price-pred.scm.azurewebsites.net/api/logs/docker
 ```
 
+![image](https://github.com/user-attachments/assets/aa3f9c24-3e2a-4a75-a0fb-e012e16dcc35)
+
 
 

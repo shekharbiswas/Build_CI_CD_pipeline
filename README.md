@@ -96,6 +96,8 @@ Now, create the web app. To do so, run the following command: (it takes sometime
 Azure 1st checks if that webapp exists, if not, it creates it.
 (the name can be anything, here it is **house-price-pred-app**)
 
+[Location codes](https://gist.github.com/ausfestivus/04e55c7d80229069bf3bc75870630ec8)
+
 ```bash
 az webapp up --sku F1 -l westeurope -g "cicd-rg" -n "house-price-pred-app"
 ```

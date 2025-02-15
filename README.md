@@ -108,7 +108,7 @@ az webapp up --runtime PYTHON:3.9 --sku F1 --logs --location northeurope --name 
 
 Please go to Azure portal (GUI) and search for **house-price-pred**:
 
-<img width="943" alt="image" src="https://github.com/user-attachments/assets/42d2ff8c-8857-4815-a981-de570be015f1" />
+<img width="940" alt="image" src="https://github.com/user-attachments/assets/12fe5bdf-13ff-436c-b888-735b5f8e618b" />
 
 4. Prediction is 2.43 (not 20.xxx)
 

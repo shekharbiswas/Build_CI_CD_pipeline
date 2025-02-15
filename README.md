@@ -99,7 +99,7 @@ Azure 1st checks if that webapp exists, if not, it creates it.
 [Location codes](https://gist.github.com/ausfestivus/04e55c7d80229069bf3bc75870630ec8)
 
 ```bash
-az webapp up --sku F1 -l northeurope -g "cicd-rg" -n "house-price-pred"
+az webapp up --runtime PYTHON:3.9 --sku F1 --logs --location northeurope --name house-price-pred --resource-group "cicd-rg" 
 ```
 
 <img width="946" alt="image" src="https://github.com/user-attachments/assets/15de452a-aadf-4f7e-bbc9-3d81554a6e21" />

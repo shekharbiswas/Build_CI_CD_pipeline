@@ -102,7 +102,8 @@ Azure 1st checks if that webapp exists, if not, it creates it.
 az webapp up --runtime PYTHON:3.9 --sku F1 --logs --location northeurope --name house-price-pred --resource-group "cicd-rg" 
 ```
 
-<img width="946" alt="image" src="https://github.com/user-attachments/assets/15de452a-aadf-4f7e-bbc9-3d81554a6e21" />
+![image](https://github.com/user-attachments/assets/80579ed4-794a-42af-a2d8-0faf8bae4a87)
+
 
 
 

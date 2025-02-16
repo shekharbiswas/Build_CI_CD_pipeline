@@ -137,4 +137,9 @@ https://house-price-pred.scm.azurewebsites.net/api/logs/docker
 
 (A VM created on Azure can connect to Azure DevOps Agent Pool by help of PAT)
 
+Please note that you can also Microsoft-hosted agents. (That case PAT and VM are not necessary)
+Below it shows when you need self-hosted agents.
+
+<img width="521" alt="image" src="https://github.com/user-attachments/assets/47288845-20f8-4bf0-8adf-a401028d326e" />
+
 

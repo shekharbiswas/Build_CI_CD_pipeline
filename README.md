@@ -129,5 +129,10 @@ https://house-price-pred.scm.azurewebsites.net/api/logs/docker
 
 ![image](https://github.com/user-attachments/assets/aa3f9c24-3e2a-4a75-a0fb-e012e16dcc35)
 
+6. Build PAT token so that we can authenticate Azure DevOps services with VM on Azure. 
+
+<img width="935" alt="image" src="https://github.com/user-attachments/assets/6cc3e131-ae3e-4945-ae3f-7c5d14a0e8d0" />
+
+[ref](https://www.youtube.com/watch?v=jzX2fOaf67w&t=136s)
 
 

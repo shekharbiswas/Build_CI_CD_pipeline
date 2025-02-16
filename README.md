@@ -135,4 +135,6 @@ https://house-price-pred.scm.azurewebsites.net/api/logs/docker
 
 [ref](https://www.youtube.com/watch?v=jzX2fOaf67w&t=136s)
 
+(A VM created on Azure can connect to Azure DevOps Agent Pool by help of PAT)
+
 

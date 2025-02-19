@@ -142,4 +142,13 @@ Below it shows when you need self-hosted agents.
 
 <img width="521" alt="image" src="https://github.com/user-attachments/assets/47288845-20f8-4bf0-8adf-a401028d326e" />
 
+7. While running Azure pipeline for the 1st time, you might encounter this error:
+
+<img width="952" alt="image" src="https://github.com/user-attachments/assets/3b7aded6-f6f1-4b04-9538-86f7d06e5d5d" />
+
+Please fill up the form and request for approval from MS:
+
+<img width="782" alt="image" src="https://github.com/user-attachments/assets/201d7c72-eedf-4eda-ae70-251970e8a062" />
+
+
 

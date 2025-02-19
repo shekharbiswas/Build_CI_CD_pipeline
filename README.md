@@ -152,3 +152,4 @@ Please fill up the form and request for approval from MS:
 
 **This is the reason you need to set up self-hosted agents.**
 
+8. Create Self-Hosted Agents.

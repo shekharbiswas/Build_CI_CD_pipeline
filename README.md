@@ -150,5 +150,5 @@ Please fill up the form and request for approval from MS:
 
 <img width="782" alt="image" src="https://github.com/user-attachments/assets/201d7c72-eedf-4eda-ae70-251970e8a062" />
 
-
+**This is the reason you need to set up self-hosted agents.**
 

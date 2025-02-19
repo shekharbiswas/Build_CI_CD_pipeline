@@ -153,6 +153,9 @@ Please fill up the form and request for approval from MS:
 **This is the reason you need to set up self-hosted agents.**
 
 8. Create Self-Hosted Agent(VM), Configure the agent (VM), Install Agent services, Verify myAgentPool has the agent (VM) Online.
+So the agent has been successfully registered in this myAgentPool
+
+![image](https://github.com/user-attachments/assets/6ae5cd27-023f-419b-8d4f-81d509c6731d)
 
 
 

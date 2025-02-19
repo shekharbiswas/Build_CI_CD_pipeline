@@ -158,6 +158,9 @@ So the agent has been successfully registered in this myAgentPool
 ![image](https://github.com/user-attachments/assets/6ae5cd27-023f-419b-8d4f-81d509c6731d)
 
 
+9. Simple run of Azure Pipelines (job is successful)
+
+<img width="949" alt="image" src="https://github.com/user-attachments/assets/79ad9e37-25b8-4af1-93b4-8e63a8910e6f" />
 
 
 

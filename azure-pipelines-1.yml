@@ -1,0 +1,103 @@
+# Python to Linux Web App on Azure
+# Build your Python project and deploy it to Azure as a Linux Web App.
+
+trigger:
+- master
+
+pool: myAgentPool
+
+variables:
+  # Azure Resource Manager connection
+  azureServiceConnectionId: '88331854-d3b7-4378-8917-4705134b43a8'
+  
+  # Web app name
+  webAppName: 'house-price-pred'
+
+  # Environment name
+  environmentName: 'udacity-flask-ml'
+
+  # Project root folder (containing manage.py)
+  projectRoot: $(System.DefaultWorkingDirectory)
+  
+  # Python version
+  pythonVersion: '3.9'
+
+stages:
+- stage: Build
+  displayName: Build stage
+  jobs:
+  - job: BuildJob
+    pool: myAgentPool
+    steps:
+
+    # Ensure system dependencies are installed
+    - script: |
+        echo "Checking system Python version..."
+        python3 --version
+
+        echo "Installing python3-venv and python3-full if not already installed..."
+        sudo apt-get update
+        sudo apt-get install -y python3-venv python3-full
+
+      displayName: "Install Python system dependencies"
+
+    # Create and activate a virtual environment
+    - script: |
+        echo "Creating a virtual environment..."
+        python3 -m venv venv
+        source venv/bin/activate
+
+        echo "Upgrading pip and installing dependencies..."
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+
+      workingDirectory: $(projectRoot)
+      displayName: "Set up Python environment and install dependencies"
+
+    # Run linting tests
+    - script: |
+        source venv/bin/activate
+        make lint
+
+      workingDirectory: $(projectRoot)
+      displayName: 'Run lint tests'
+    - script: |
+        echo "Installing zip utility..."
+        sudo apt-get update
+        sudo apt-get install -y zip
+      displayName: "Install zip utility"
+
+    # Archive application files
+    - task: ArchiveFiles@2
+      displayName: 'Archive files'
+      inputs:
+        rootFolderOrFile: '$(projectRoot)'
+        includeRootFolder: false
+        archiveType: zip
+        archiveFile: $(Build.ArtifactStagingDirectory)/$(Build.BuildId).zip
+        replaceExistingArchive: true
+
+    # Upload the package artifact
+    - upload: $(Build.ArtifactStagingDirectory)/$(Build.BuildId).zip
+      displayName: 'Upload package'
+      artifact: drop
+
+- stage: Deploy
+  displayName: 'Deploy Web App'
+  dependsOn: Build
+  condition: succeeded()
+  jobs:
+  - deployment: DeploymentJob
+    pool: myAgentPool
+    environment: $(environmentName)
+    strategy:
+      runOnce:
+        deploy:
+          steps:
+          # Deploy to Azure Web App
+          - task: AzureWebApp@1
+            displayName: 'Deploy Azure Web App: $(webAppName)'
+            inputs:
+              azureSubscription: $(azureServiceConnectionId)
+              appName: $(webAppName)
+              package: $(Pipeline.Workspace)/drop/$(Build.BuildId).zip

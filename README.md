@@ -168,6 +168,7 @@ So the agent has been successfully registered in this myAgentPool
 
 <img width="605" alt="image" src="https://github.com/user-attachments/assets/76a86ba8-e363-4954-904b-c27aa11ff3fe" />
 
+(During deployment of webapp, the Azure devops pipeline will ask for Permission)
 
 
 

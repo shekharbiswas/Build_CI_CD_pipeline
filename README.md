@@ -164,7 +164,7 @@ So the agent has been successfully registered in this myAgentPool
 
 
 
-10.  Deployed webapp to Azure via Azure pipeline ( chose **master branch** for the same)
+10.  Deployed webapp **house-price-pred** to Azure via Azure pipeline ( chose **master branch** for the same)
 
 <img width="605" alt="image" src="https://github.com/user-attachments/assets/76a86ba8-e363-4954-904b-c27aa11ff3fe" />
 

@@ -166,6 +166,8 @@ So the agent has been successfully registered in this myAgentPool
 
 10.  Deployed webapp **house-price-pred** to Azure via Azure pipeline ( chose **master branch** for the same)
 
+<img width="806" alt="image" src="https://github.com/user-attachments/assets/d6b53d8e-c9c1-4bb5-8894-8d4250225120" />
+
 <img width="605" alt="image" src="https://github.com/user-attachments/assets/76a86ba8-e363-4954-904b-c27aa11ff3fe" />
 
 (During deployment of webapp, the Azure devops pipeline will ask for Permission)

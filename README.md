@@ -170,8 +170,6 @@ So the agent has been successfully registered in this myAgentPool
 
 ## Enhancements
 
-<TODO: A short description of how to improve the project in the future>
 
 ## Demo 
 
-<TODO: Add link Screencast on YouTube>

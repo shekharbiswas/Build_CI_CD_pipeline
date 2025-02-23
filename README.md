@@ -16,10 +16,11 @@ This ensures efficient progress, clear accountability, and a smooth deployment t
 
 ```mermaid
 graph TD;
-    A[GitHub Repository (Flask App Code)] --> B[GitHub Actions (CI)];
-    B -->|Runs Tests & Linting| C[Azure Pipelines (CD)];
-    C -->|Deploys to Azure & More Tests/Linting| D[Azure App Service];
-    D -->|Serves Predictions| E[Prediction Service];
+    A["GitHub Repository (Flask App Code)"] --> B["GitHub Actions (CI)"];
+    B -->|Runs Tests & Linting| C["Azure Pipelines (CD)"];
+    C -->|Deploys to Azure & More Tests/Linting| D["Azure App Service"];
+    D -->|Serves Predictions| E["Prediction Service"];
+
 ```
 
 ### Azure Cloud Shell Setup

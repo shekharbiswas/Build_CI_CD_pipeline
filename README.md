@@ -182,6 +182,9 @@ So the agent has been successfully registered in this myAgentPool
 
 (During deployment of webapp, the Azure devops pipeline will ask for Permission)
 
+11. Finally update the status badge as well
+
+<img width="938" alt="image" src="https://github.com/user-attachments/assets/f971103e-0523-4f6a-8e54-c3ab4e311b69" />
 
 
 ## Enhancements

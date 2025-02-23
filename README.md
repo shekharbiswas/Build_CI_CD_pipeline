@@ -14,6 +14,13 @@ The project plan is structured into milestones, covering Flask API development, 
 This ensures efficient progress, clear accountability, and a smooth deployment to Azure.
 
 
+```mermaid
+graph TD;
+    A[GitHub Repository (Flask App Code)] --> B[GitHub Actions (CI)];
+    B -->|Runs Tests & Linting| C[Azure Pipelines (CD)];
+    C -->|Deploys to Azure & More Tests/Linting| D[Azure App Service];
+    D -->|Serves Predictions| E[Prediction Service];
+```
 
 ### Azure Cloud Shell Setup
 
@@ -176,6 +183,8 @@ So the agent has been successfully registered in this myAgentPool
 
 ## Enhancements
 
+1. Modify the Flask App to have new endpoints ( adding postal code, type of house etc.)
+2. Use different ML tasks to 
 
 ## Demo 
 

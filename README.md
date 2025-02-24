@@ -1,4 +1,4 @@
-[![Python application test with Github Actions](https://github.com/shekharbiswas/Build_CI_CD_pipeline/actions/workflows/pythonapp.yml/badge.svg?branch=main?refresh=1)](https://github.com/shekharbiswas/Build_CI_CD_pipeline/actions/workflows/pythonapp.yml)
+[![Python application test with Github Actions](https://github.com/shekharbiswas/Build_CI_CD_pipeline/actions/workflows/pythonapp.yml/badge.svg?branch=main)](https://github.com/shekharbiswas/Build_CI_CD_pipeline/actions/workflows/pythonapp.yml)
 
 # Project Overview
 
